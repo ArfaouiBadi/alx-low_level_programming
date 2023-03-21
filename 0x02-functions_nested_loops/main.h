@@ -2,6 +2,7 @@
 #define MAIN_H
 
 #include <stdio.h>
+int _abs(int);
 void times_table(void);
 int add(int, int);
 void print_alphabet(void);
