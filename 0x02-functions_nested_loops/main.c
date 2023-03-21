@@ -1,9 +1,12 @@
-#ifndef MAIN_H
-#define MAIN_H
+#include "main.h"
 
-#include <stdio.h>
-
-void print_alphabet(void);
-int _putchar(char c);
-
-#endif /* MAIN_H */
+/**
+ * main - Entry point
+ *
+ * Return: Always 0 (Success)
+ */
+int main(void)
+{
+    print_alphabet();
+    return (0);
+}
