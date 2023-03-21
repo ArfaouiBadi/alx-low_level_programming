@@ -2,6 +2,7 @@
 #define MAIN_H
 
 #include <stdio.h>
+void jack_bauer(void);
 int print_last_digit(int);
 int _abs(int);
 void times_table(void);
