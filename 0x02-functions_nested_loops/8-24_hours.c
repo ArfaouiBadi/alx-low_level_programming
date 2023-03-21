@@ -1,5 +1,4 @@
 #include "main.h"
-0;276;0c
 /**
  * jack_bauer - prints every minute of the day of Jack Bauer
  *
