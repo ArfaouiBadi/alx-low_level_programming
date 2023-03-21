@@ -1,5 +1,5 @@
-include "main.h"
+#include "main.h"
 /**main**/
-int add(a, b){
+int add(int a,int  b){
   return a+b;
 }
