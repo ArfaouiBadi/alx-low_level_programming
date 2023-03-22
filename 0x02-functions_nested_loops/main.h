@@ -2,6 +2,7 @@
 #define MAIN_H
 
 #include <stdio.h>
+int sum_multiples_3_5(int n);
 void print_to_98(int n);
 void jack_bauer(void);
 int print_last_digit(int);
