@@ -9,3 +9,12 @@ sum += i;
 }
 }
 return sum;}
+int main(void) {
+    // Test the function with the given example:
+    printf("%d\n", sum_multiples_3_5(10)); // Output: 23
+
+    // Compute and print the sum for n=1024:
+    printf("%d\n", sum_multiples_3_5(1024));
+
+    return 0;
+}
