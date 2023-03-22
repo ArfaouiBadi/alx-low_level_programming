@@ -10,7 +10,6 @@ sum += i;
 }
 return sum;}
 int main(void) {
-printf("%d\n", sum_multiples_3_5(10));
 printf("%d\n", sum_multiples_3_5(1024));
 return 0;
 }
