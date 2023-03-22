@@ -16,7 +16,7 @@ if (i % 3 == 0 || i % 5 == 0)
 sum += i;
 }
 }
- return (sum);
+return (sum);
 }
 int main(void)
 {
