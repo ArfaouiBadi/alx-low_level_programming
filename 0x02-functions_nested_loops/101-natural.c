@@ -18,6 +18,14 @@ sum += i;
 }
 return (sum);
 }
+/**
+ * main - Entry point for the program
+ *
+ * This program computes the sum of all the multiples of 3 or 5 below 1024
+ * (excluded), and prints the result to the standard output.
+ *
+ * Return: Always 0 (success)
+ */
 int main(void)
 {
 printf("%d\n", sum_multiples_3_5(1024));
