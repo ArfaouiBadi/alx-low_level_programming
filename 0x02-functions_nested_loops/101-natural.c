@@ -16,10 +16,10 @@ if (i % 3 == 0 || i % 5 == 0)
 sum += i;
 }
 }
-return sum;
+ return (sum);
 }
 int main(void)
 {
 printf("%d\n", sum_multiples_3_5(1024));
-return 0;
+return (0);
 }
