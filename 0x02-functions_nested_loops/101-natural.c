@@ -1,7 +1,5 @@
 #include "main.h"
 
-/**function that do natural**/
-
 int sum_multiples_3_5(int n) {
 int sum = 0;
 int i;
