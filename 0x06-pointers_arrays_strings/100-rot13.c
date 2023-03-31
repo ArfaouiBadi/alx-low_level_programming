@@ -27,13 +27,13 @@ char *rot13(char *s)
             for (j = 0; j < 13; j++)
             {
                 res[i]++;
-                if (res[i] == ('z' + 1))
+            if (res[i] == ('z' + 1))
                     res[i] = 'a';
-                else if (res[i] == ('Z' + 1))
+            else if (res[i] == ('Z' + 1))
                     res[i] = 'A';
             }
         }
     }
 
-    return res;
+    return (res);
 }
